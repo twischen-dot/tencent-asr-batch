@@ -1,6 +1,9 @@
 # 腾讯云语音识别批量转写工具
 
-利用腾讯云每日免费额度，智能分批处理大量音频文件的转写工具。
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+
+利用腾讯云每日免费额度，智能分批处理大量音频文件的转写工具。支持自动分批、断点续传、大文件切分和说话人分离。
 
 ## ✨ 功能特点
 
@@ -214,3 +217,26 @@ MIT License
 - [获取 SecretId 和 SecretKey](https://console.cloud.tencent.com/cam/capi)
 
 ## ⭐ 如果这个项目对你有帮助，请给个 Star！
+
+## 📦 安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/twischen-dot/tencent-asr-batch.git
+cd tencent-asr-batch
+
+# 安装依赖
+pip install -r requirements.txt
+```
+
+## 🎯 使用场景
+
+- 📞 **电话录音转写**：批量转写通话录音
+- 🎙️ **会议记录**：自动生成会议文字记录
+- 📚 **音频资料整理**：将音频资料转换为可搜索的文本
+- ⚖️ **证据整理**：法庭证据录音的批量转写
+
+## 🔗 相关链接
+
+- **GitHub 仓库**: https://github.com/twischen-dot/tencent-asr-batch
+- **问题反馈**: https://github.com/twischen-dot/tencent-asr-batch/issues

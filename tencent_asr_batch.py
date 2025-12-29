@@ -4,6 +4,8 @@
 腾讯云语音识别批量转写工具
 利用腾讯云每日免费额度，智能分批处理大量音频文件
 
+GitHub: https://github.com/twischen-dot/tencent-asr-batch
+
 使用方法：
   python3 tencent_asr_batch.py --input ./audio --output ./transcripts
   python3 tencent_asr_batch.py --status
